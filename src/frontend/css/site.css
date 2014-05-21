@@ -1,0 +1,275 @@
+/* 
+    Document   : controls.css
+    Created on : Jun 28, 2013, 1:23:18 PM
+    Author     :runch
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root 
+{ 
+    display: block;
+}
+
+table
+{
+border-collapse:collapse;
+}
+
+table,th, td
+{
+border: 1px solid black;
+}
+
+th
+{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+td
+{
+    padding-left:15px;
+    padding-right:15px;    
+}
+
+
+body {
+    background: url("../images/body.jpg") repeat-x scroll 0px 0px rgb(140, 20, 12);
+    color: rgb(51, 51, 51);
+    font: small Georgia Serif;
+    margin: 0px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#header-wrapper {
+    height: 120px;
+    margin: 0px auto;
+}
+
+#header {
+    color: rgb(140, 20, 12);
+    text-align: left;
+    text-shadow: 0px 1px rgb(238, 238, 238);
+}
+
+#header-inner {
+    background: url("../images/logo.png") no-repeat scroll 0% 0% transparent;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    background: url("../images/menu_bg.png") repeat-x scroll 0px 0px rgb(184, 183, 183);
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-transform: none;
+}
+
+#menu ul {
+    float: left;
+    list-style: none outside none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: -4px;
+    padding: 0px;
+    width: 969px;
+}
+
+#menu li {
+    color: rgb(255, 255, 255);
+    float: left;
+    font: bold 12px Arial;
+    margin: 0px;
+    padding: 27px 7px 14px 10px;
+    text-transform: uppercase;
+}	
+
+#menu a {
+    color: rgb(255, 255, 255);
+}
+
+#wrapper { 
+	margin: 0px auto; 
+	font: 110% Arial,Serif;
+	padding-top: 0px;
+	text-align: left;
+	width: 95%;
+}
+
+#wrapper #main_container { 
+	padding: 10px 0px 10px 10px; 
+	background: #CCC; 
+	overflow: hidden; 
+	border-bottom: 10px solid #CCC; 
+}
+.right_column { 
+	float: right;
+	width:315px;
+	background: #999; 
+	margin-right:10px;
+	margin-bottom:-1000px;	
+	padding: 7px 8px 1000px 8px;
+}
+.left_column { 
+	width:auto; 
+	overflow:hidden;
+	margin-right:350px;
+	background: #FFF;
+	margin-bottom: -1000px; 
+	padding: 7px 8px 1000px 8px; 
+}
+.clear {
+    clear: both;
+}
+
+span.picon
+{
+    display: block;
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-right: 5px;    
+    background: url(../images/provider_icons.png);    
+}
+
+span.picon.netflix_instant
+{
+    background-position: -578px -50px;
+}
+
+span.picon.hulu_movies
+{
+    background-position: -443px -94px;
+}
+
+span.picon.netflix_dvd
+{
+    background-position: -624px -50px;
+}
+
+span.picon.amazon_prime_instant_video, span.picon.amazon_video_rental, span.picon.amazon_video_purchase
+{
+    background-position: -443px -8px;
+}
+
+span.picon.epix
+{
+    background-position: -533px -94px;
+}
+
+span.picon.android_rental, span.picon.android_purchase
+{
+    background-position: -533px -8px;
+}
+
+span.picon.apple_itunes_rental, span.picon.apple_itunes_purchase
+{
+    background-position: -489px -8px;
+}
+
+span.picon.amazon_dvd
+{
+
+    background-position: -489px -50px;
+}
+
+span.picon.amazon_bluray
+{
+    background-position: -533px -50px;
+}
+
+span.picon.vudu_rental, span.picon.vudu_purchase
+{
+    background-position: -578px -8px;
+}
+
+span.picon.blockbuster_rental, span.picon.blockbuster_purchase
+{
+    background-position: -443px -50px;
+}
+
+span.picon.youtube_free, span.picon.youtube_rental
+{
+    background-position: -624px -8px;
+}
+
+span.picon.crackle
+{
+    background-position: -443px -179px;
+}
+
+span.picon.snagfilms
+{
+    background-position: -578px -180px;
+}
+
+span.picon.hitbliss_streaming, span.picon.hitbliss_rental
+{
+    background-position: -578px -222px;
+}
+
+span.picon.sony_rental, span.picon.sony_purchase
+{
+    background-position: -532px -222px;
+}
+
+span.picon.xbox_purchase
+{
+    background-position: -487px -222px;
+}
+
+span.picon.redbox
+{
+    background-position: -578px -94px;
+}
+
+span.picon.redboxinstant_subscription, span.picon.redboxinstant_rental, span.picon.redboxinstant_purchase
+{
+    background-position: -623px -180px;
+}
+
+span.picon.streampix
+{
+    background-position: -533px -138px;
+}
+
+span.picon.hbo
+{
+    background-position: -624px -94px;
+}
+
+span.picon.showtime
+{
+    background-position: -443px -138px;
+}
+
+span.picon.encore
+{
+    background-position: -489px -138px;
+}
+
+span.picon.starz
+{
+    background-position: -578px -138px;
+}
+
+span.picon.cinemax
+{
+    background-position: -624px -138px;
+}
+
+span.picon.xfinity_free
+{
+    background-position: -489px -179px;
+}
